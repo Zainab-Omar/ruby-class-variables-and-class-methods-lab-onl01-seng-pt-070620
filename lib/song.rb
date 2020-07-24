@@ -33,5 +33,7 @@ class Song
   end
   hash
  end
-    def 
+    def artist_count
+      hash={}
+      
 end
