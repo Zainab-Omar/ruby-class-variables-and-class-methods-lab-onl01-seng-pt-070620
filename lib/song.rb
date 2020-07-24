@@ -26,6 +26,7 @@ class Song
    hash={}
    @@genres.each do |genre|
      if hash[genre] 
+       
   end
     
 end
