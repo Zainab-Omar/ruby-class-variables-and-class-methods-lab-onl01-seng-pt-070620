@@ -23,7 +23,8 @@ class Song
     @@artists.uniq
   end
   def self.genre_count
-   @@genres.to_histogram
+    
+   @@genres.each
   end
     
 end
