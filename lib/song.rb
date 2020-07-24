@@ -23,10 +23,7 @@ class Song
     @@artists.uniq
   end
   def self.genre_count
-    genre_hash={}
-    @@genres.each do |genre|
-      genre_hash[genre] +=1
-    end
+   @@genres.to_histogram
   end
     
 end
