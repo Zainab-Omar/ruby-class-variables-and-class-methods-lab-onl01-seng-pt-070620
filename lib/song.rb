@@ -30,8 +30,8 @@ class Song
       else
       hash[genre] = 1
   end
+  end
+  hash
  end
-hash
-end
     
 end
