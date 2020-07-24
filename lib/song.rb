@@ -33,7 +33,7 @@ class Song
   end
   hash
  end
-    def artist_count
+    def self.artist_count
       hash={}
       @@artists.each{|artist| hash[artist] +=1}
       hash
